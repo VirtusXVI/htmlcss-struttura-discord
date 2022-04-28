@@ -1,6 +1,88 @@
 /* RESET */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* COMMON */
+
+.container{
+    width: 50%;
+    margin: auto;
+}
+
+/* HEADER */
+
+.header-background{
+    background-color: #add8e6;
+    padding: 10px;
+}
+.header-flex-container{
+    display: flex;
+}
+.logo{
+    background-color: #daa520;
+    border: 1px dotted black;
+    width: 25%;
+    text-align: left;
+}
+nav{
+    background-color: #daa520;
+    border: 1px dotted black;
+    width: 50%;
+    text-align: center;
+}
+.login{
+    background-color: #daa520;
+    border: 1px dotted black;
+    width: 25%;
+    text-align: right;
+}
+
+/* JUMBOTRON */
+
+.jumbotron-flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.jumbotron-container{
+    background-color: blue;
+    height: 400px;
+}
+.ad-space{
+    width: 600px;
+    height: 300px;
+    background-color: #ee82ee;
+}
+
+/* MAIN */
+
+.main-flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.box-1{
+    height: 300px;
+    width: 60%;
+    background-color: #1e90ff;
+    border: 1px dotted black;
+}
+.box-2{
+    height: 300px;
+    width: 40%;
+    background-color: #ffc0cb;
+    border: 1px dotted black;
+}
+.mirrored{
+    background-color: #d3d3d3;
+    flex-direction: row-reverse;
+}
+.grey{
+    background-color: #d3d3d3;
 }
