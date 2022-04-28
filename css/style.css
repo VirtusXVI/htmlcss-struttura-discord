@@ -57,6 +57,7 @@ nav{
     width: 600px;
     height: 300px;
     background-color: #ee82ee;
+    border: 1px dotted black;
 }
 
 /* MAIN */
@@ -129,4 +130,36 @@ nav{
 .larger-box{
     width: 70%;
     background-color: #f08080;
+}
+.footer-ending-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 50%;
+    margin: auto;
+}
+.footer-ending{
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #20b2aa;
+}
+.footer-flex-ending{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.footer-logo{
+    background-color: #ffb6c1;
+    width: 40px;
+    text-align: center;
+    border: 1px dotted black;
+}
+.footer-button{
+    background-color: #ffb6c1;
+    width: 60px;
+    text-align: center;
+    border: 1px dotted black;
 }
